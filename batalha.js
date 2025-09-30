@@ -93,4 +93,6 @@ if (navios === 0) {
     console.log('Parabéns! Você afundou todos os navios!');
 } else {
     console.log('Fim de jogo! Você ficou sem tiros.');
+    console.log('Os navios restantes estavam em:');
+    console.log(tabuleiro);
 }
